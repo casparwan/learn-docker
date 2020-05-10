@@ -7,6 +7,6 @@ services:
 #   - npm install
 script:
 #  - npm run build
-  - echo "carry19901015" | docker login -u "casparwan" --password-stdin
+  - echo carry19901015 | docker login -u casparwan --password-stdin
   - docker build -t casparwan/learn-docker:latest
   - docker push casparwan/learn-docker:latest
