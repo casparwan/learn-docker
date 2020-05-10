@@ -8,5 +8,5 @@ services:
 script:
 #  - npm run build
   - echo carry19901015 | docker login -u casparwan --password-stdin
-  - docker build -t casparwan/learn-docker:latest -f /Dockfile .
+  - docker build -t casparwan/learn-docker:latest -f Dockfile .
   - docker push casparwan/learn-docker:latest
