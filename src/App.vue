@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="i am docker. git push自动化部署项目"/>
+    <HelloWorld msg="i am docker. git push之后自动触发构建工具, 生成docker images, 就能自动化部署项目"/>
   </div>
 </template>
 
