@@ -22,3 +22,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 部署进度
+https://www.travis-ci.org/github/casparwan/learn-docker
