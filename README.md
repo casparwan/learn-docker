@@ -1,6 +1,24 @@
 # learn-docker
-通过docker自动化部署项目
 
-部署进度:
-https://www.travis-ci.org/github/casparwan/learn-docker
+## Project setup
+```
+yarn install
+```
 
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
