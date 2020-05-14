@@ -1,4 +1,4 @@
 FROM nginx
 COPY  ./dist/ /usr/share/nginx/html/
-COPY ./nginx-learn-docker.conf /etc/nginx/conf.d/nginx-learn-docker.conf
+COPY ./vhost.nginx.conf /etc/nginx/conf.d/pea3nut-info.conf
 EXPOSE 80
