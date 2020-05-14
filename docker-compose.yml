@@ -3,10 +3,6 @@ services:
     vue:
         container_name: learn-docker
         image: casparwan/learn-docker:latest
-        volumes:
-            - "/work/nginx/html:/usr/share/nginx/html/"
-            - "/work/nginx/conf.d:/etc/nginx/conf.d/"
-
         ports:
             - "5678:80"
         restart: on-failure
