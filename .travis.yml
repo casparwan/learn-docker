@@ -8,5 +8,5 @@ before_install:
 script:
   - npm run build
   - echo carry19901015 | docker login -u casparwan --password-stdin
-  - docker build -t casparwan/learn-docker:latest -f Dockfile .
-  - docker push casparwan/learn-docker:latest
+  - docker build -t casparwan/learn-docker:1.2 -f Dockfile .
+  - docker push casparwan/learn-docker:1.2
