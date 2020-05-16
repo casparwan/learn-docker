@@ -4,11 +4,10 @@ services:
         container_name: learn-docker
         image: casparwan/learn-docker:latest
         volumes:
-            - /home/nginx/www:/usr/share/nginx/html
+            - /home/nginx/html:/usr/share/nginx/html
             - /home/nginx/conf.d:/etc/nginx/conf.d
         ports:
             - "5678:80"
         restart: on-failure
-    mysql:
         
         
