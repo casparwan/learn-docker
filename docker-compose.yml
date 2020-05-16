@@ -1,0 +1,12 @@
+version: "3.7" # 这个是配置文件的版本，不同的版本号声明方式会有细微的不同
+services:
+    vue:
+        container_name: learn-docker
+        image: casparwan/learn-docker:latest
+        volumes:
+            - /home/nginx/www:/usr/share/nginx/html
+            - /home/nginx/conf.d:/etc/nginx/conf.d
+        ports:
+            - "5678:80"
+        restart: on-failure
+        
