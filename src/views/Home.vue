@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="hello docker"/>
+    <HelloWorld msg="hello docker. whx"/>
   </div>
 </template>
 

@@ -9,4 +9,6 @@ services:
         ports:
             - "5678:80"
         restart: on-failure
+    mysql:
+        
         
